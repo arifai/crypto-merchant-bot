@@ -1,0 +1,16 @@
+{
+  "name": "crypto-merchant-bot",
+  "version": "1.0.0",
+  "description": "Crypto Merchant adalah bot telegram yang melayani jual beli cryptocurrency dengan sistem otomatis.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./api-bot/index.js"
+  },
+  "repository": "https://github.com/arifai/crypto-merchant-bot",
+  "author": "Ahmad Rifa'i",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.36.0"
+  }
+}
