@@ -18,15 +18,15 @@ const bot = new Telegraf(BOT_TOKEN, { username: USERNAME_BOT });
 bot.start(start);
 
 // Bot hears
-bot.hears('Beli', buy)
-    .hears('BTC', buyBtc)
-    .hears('ETH', buyEth)
-    .hears('Doge', buyDoge)
-    .hears('XLM', buyXlm)
-    .hears('Profil', profile)
-    .hears('Sistem', systemInfo)
-    .hears('Tentang', about)
-    .hears('Batalkan', back)
+bot.hears('🛒 Beli', buy)
+    .hears('✅ BTC', buyBtc)
+    .hears('✅ ETH', buyEth)
+    .hears('✅ Doge', buyDoge)
+    .hears('✅ XLM', buyXlm)
+    .hears('🤵 Profil', profile)
+    .hears('🖥 Sistem', systemInfo)
+    .hears('❕ Tentang', about)
+    .hears('⬅️ Batalkan', back)
 
 bot.startPolling();
 
