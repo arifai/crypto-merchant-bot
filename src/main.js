@@ -8,9 +8,9 @@ const { back, start } = require('./commands');
 const { buy, buyBtc, buyDoge, buyEth, buyXlm } = require('./commands/buy');
 const { about, systemInfo } = require('./commands/system_info');
 
-const { BOT_TOKEN, USERNAME_BOT } = process.env;
+const { BOT_TOKEN, BOT_USERNAME } = process.env;
 
-const bot = new Telegraf(BOT_TOKEN, { username: USERNAME_BOT });
+const bot = new Telegraf(BOT_TOKEN, { username: BOT_USERNAME });
 
 // bot.use(Telegraf.log());
 
@@ -30,7 +30,7 @@ bot.hears('🛒 Beli', buy)
 
 bot.startPolling();
 
-console.log(`@${USERNAME_BOT} is running...`);
+console.log(`@${BOT_USERNAME} is running...`);
 
 // Catch error
 bot.catch(console.error);
