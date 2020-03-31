@@ -1,4 +1,6 @@
-<img src="/img/logo_transparent.png" width="300px" align="center">
+<h1 align="center">
+    <img src="/img/logo_transparent.png" width="320px">
+</h1>
 
 ## Crypto Merchant Bot
 
