@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="/img/logo_transparent.png" width="320px">
+    <img src="/img/logo_transparent.png" width="300px">
 </h1>
 
 ## Crypto Merchant Bot
@@ -16,17 +16,17 @@ yarn install
 
 ## Setup environment
 
-Ubah `.env.example` menjadi `.env`, silahkan sesuaikan isi dari variabel `BOT_TOKEN` dan `BOT_USERNAME` yang kamu dapat dari [BotFather](https://t.me/BotFather)
+Ubah `.env.example` menjadi `.env`, silahkan sesuaikan isi dari variabel `BOT_TOKEN` dan `BOT_USERNAME` yang kamu dapat dari [BotFather](https://t.me/BotFather).
 
 ## How to run
 
 ### Local launch
 
-`yarn start` or `npm start`
+`yarn start` atau `npm start`
 
 ## Credit
 
-Icon by: [Hatchful](https://hatchful.shopify.com/)
+Logo by: [Hatchful](https://hatchful.shopify.com/)
 
 ## License 
 
