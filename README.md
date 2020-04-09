@@ -1,8 +1,8 @@
 <p align="center">
-    <img src="/img/logo_transparent.png" width="250px">
+    <img src="/img/logo_transparent.png" width="280px">
 </p>
 
-![Build](https://github.com/arifai/crypto-merchant-bot/workflows/build/badge.svg?branch=master) ![GitHub repo size](https://img.shields.io/github/repo-size/arifai/crypto-merchant-bot) [![License](https://img.shields.io/badge/license-MIT-orange)](https://github.com/arifai/crypto-merchant-bot/blob/master/LICENSE)
+![Build](https://github.com/arifai/crypto-merchant-bot/workflows/build/badge.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/arifai/crypto-merchant-bot) [![License](https://img.shields.io/badge/license-MIT-orange)](https://github.com/arifai/crypto-merchant-bot/blob/master/LICENSE)
 
 ## Crypto Merchant Bot
 
