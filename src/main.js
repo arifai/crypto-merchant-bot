@@ -7,6 +7,7 @@ const { profile } = require('./commands/profile');
 const { back, start } = require('./commands');
 const { buy, buyBtc, buyDoge, buyEth, buyXlm } = require('./commands/buy');
 const { about, systemInfo } = require('./commands/system_info');
+const { topupCrypto, topup } = require('./commands/topup');
 
 const { BOT_TOKEN, BOT_USERNAME } = process.env;
 
@@ -23,6 +24,8 @@ bot.hears('🛒 Beli', buy)
     .hears('✅ ETH', buyEth)
     .hears('✅ Doge', buyDoge)
     .hears('✅ XLM', buyXlm)
+    .hears('💳 Topup', topup)
+    .hears('✅ Cryptocurrency', topupCrypto)
     .hears('🤵 Profil', profile)
     .hears('🖥 Sistem', systemInfo)
     .hears('❕ Tentang', about)

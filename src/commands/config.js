@@ -1,11 +1,18 @@
 // Keyboard config
 const mainMenu = [
-    ['🛒 Beli', '💳 Topup', '🤵 Profil'],
-    ['🎫 Voucher', 'ℹ️ Bantuan', '🖥 Sistem']
+    ['🛒 Beli', '💸 Tarik' , '💳 Topup'],
+    ['🔄 Tukar poin', '🎫 Voucher', '🤵 Profil'],
+    ['ℹ️ Bantuan', '🖥 Sistem']
 ];
 
-const buyProduct = [
+const crypto = [
     ['✅ BTC', '✅ ETH', '✅ Doge', '✅ XLM'],
+    ['⬅️ Batalkan']
+];
+
+const topup = [
+    ['✅ Cryptocurrency', '✅ E-wallet'],
+    ['✅ Indodax', '✅ Pulsa'],
     ['⬅️ Batalkan']
 ];
 
@@ -14,4 +21,4 @@ const systemInfo = [
     ['⬅️ Batalkan']
 ];
 
-module.exports = { mainMenu, buyProduct, systemInfo };
+module.exports = { mainMenu, crypto, topup, systemInfo };
