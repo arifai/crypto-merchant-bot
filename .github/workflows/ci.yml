@@ -32,7 +32,7 @@ jobs:
       run: echo "::set-output name=dir::$(yarn cache dir)"
     
     - name: Setup yarn cache
-      uses: actions/cache@v1.1.2
+      uses: actions/cache@v1
       id: yarn-cache
       with: 
         path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
