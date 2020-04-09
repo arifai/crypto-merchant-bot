@@ -27,14 +27,18 @@ jobs:
     - run: node --version
     - run: yarn --version
     
-    - name: Setup cache
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+    
+    - name: Setup yarn cache
       uses: actions/cache@v1.1.2
+      id: yarn-cache
       with: 
-        path: ~/.npm
-        key: ${{ runner.os }}-node-v${{ matrix.node }}-${{ hashFiles('package.json') }}-${{ hashFiles('package-lock.json') }}-${{ hashFiles('.github/workflows/ci.yml') }}
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
-          ${{ runner.OS }}-node-v${{ matrix.node }}-${{ hashFiles('package.json') }}-${{ hashFiles('package-lock.json') }}-${{ hashFiles('.github/workflows/ci.yml') }}
-          ${{ runner.OS }}-node-v${{ matrix.node }}-
+          ${{ runner.os }}-yarn-
     
     - name: Install dependencies
       run: yarn --frozen-lockfile
