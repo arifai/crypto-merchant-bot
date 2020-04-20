@@ -121,6 +121,11 @@ cli-boxes@^1.0.0:
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-1.0.0.tgz#4fa917c3e59c94a004cd61f8ee509da651687143"
   integrity sha1-T6kXw+WclKAEzWH47lCdplFocUM=
 
+coinpayments@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/coinpayments/-/coinpayments-2.0.3.tgz#43676f8b99de0f86acc89915337aaf77c57d8056"
+  integrity sha512-iLM4X3LMXJfQhaImWnbmy/tRGQGQWVMdnhm/Z+NfhX/JRo0i/6X5f2/2yPsHiQGjLG+3YBAPz6wCccejqoOg3g==
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"

@@ -11,6 +11,7 @@
   "author": "Ahmad Rifa'i",
   "license": "MIT",
   "dependencies": {
+    "coinpayments": "^2.0.3",
     "dotenv": "^8.2.0",
     "telegraf": "^3.36.0"
   },
