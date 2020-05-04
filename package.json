@@ -5,7 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node ./src/main.js",
-    "dev": "nodemon ./src/main.js"
+    "dev": "nodemon ./src/main.js",
+    "start:server": "node ./src/api/server.js",
+    "dev:server": "nodemon ./src/api/server.js"
   },
   "repository": "https://github.com/arifai/crypto-merchant-bot",
   "author": "Ahmad Rifa'i",
@@ -15,10 +17,12 @@
     "coinpayments": "^2.0.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "http-status": "^1.4.2",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "telegraf": "^3.36.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   }
 }

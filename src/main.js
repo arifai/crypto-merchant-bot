@@ -13,7 +13,7 @@ const { BOT_TOKEN, BOT_USERNAME } = process.env;
 
 const bot = new Telegraf(BOT_TOKEN, { username: BOT_USERNAME });
 
-// bot.use(Telegraf.log());
+bot.use(Telegraf.log());
 
 // Setup start
 bot.start(start);
