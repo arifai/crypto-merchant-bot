@@ -11,8 +11,11 @@
   "author": "Ahmad Rifa'i",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "coinpayments": "^2.0.3",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "telegraf": "^3.36.0"
   },
   "devDependencies": {
